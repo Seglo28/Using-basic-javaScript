@@ -10,14 +10,14 @@
     <h1>GUESS THE NUMBER</h1>
 
     <script>
-        var a = Math.round(Math.random()*10);
-        document.write(a+"<br>");
-        var numera = parseInt(prompt("Give me a number between 0 - 10!"));
+        var randomNumber = Math.round(Math.random()*10);
+        document.write(randomNumber+"<br>");
+        var number = parseInt(prompt("Give me a number between 0 - 10!"));
         
-        if(a == numera){
-            document.write("That's rigth, you guess the number! "+ a);
-        }else if (a != numera){
-            document.write("Your number was + " + numera + " and the ramdom number is " + a);
+        if(randomNumber == number){
+            document.write("That's rigth, you guess the number! "+ randomNumber);
+        }else if (randomNumber != number){
+            document.write("Your number was " + number + " and the ramdom number is " + randomNumber);
         }
     </script>
 </body>
