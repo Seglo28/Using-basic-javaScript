@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+</head>
+<body>
+    <h1>GUESS THE NUMBER</h1>
+
+    <script>
+        var a = Math.round(Math.random()*10);
+        document.write(a+"<br>");
+        var numera = parseInt(prompt("Give me a number between 0 - 10!"));
+        
+        if(a == numera){
+            document.write("That's rigth, you guess the number! "+ a);
+        }else if (a != numera){
+            document.write("Your number was + " + numera + " and the ramdom number is " + a);
+        }
+    </script>
+</body>
+</html>
