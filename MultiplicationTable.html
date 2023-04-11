@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication</title>
+</head>
+<body>
+    <h1>Multipliation table</h1>
+    <script>
+        var tableNumber = parseInt(prompt("Please give me a number: "));
+        var numberCicle = 1;
+
+        while(numberCicle<=10)
+        {
+            var multiplication = (tableNumber*numberCicle);
+            document.write(tableNumber+" x "+numberCicle+" = "+ multiplication +"<br>");
+            numberCicle = numberCicle+1;
+            
+        }
+    </script>
+</body>
+</html>
